@@ -88,6 +88,12 @@
   text-decoration: none;
 }
 
+.menu_item {
+  border-top: #7e6161;
+  border-width: .5em;
+  border-radius: 5px;
+}
+
 body {
   background: #d0cbd4;
   margin: 0 auto;
