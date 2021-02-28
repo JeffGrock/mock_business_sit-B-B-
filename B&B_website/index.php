@@ -2,25 +2,20 @@
 
 <body>
 <main>
-    <div>
+    <div id = "table">
     <table>
         <tr>
-            <td>home page</td>
+            <td><a href='beer_list/index.php'>beer list</a></td>
         </tr>
         <tr>
-            <td>beer list</td>
+            <td><a href='calendar/index.php'>calendar</a></td>
         </tr>
         <tr>
-            <td>calendar</td>
+            <td><a href='bakery/index.php'>bakery</a></td>
         </tr>
         <tr>
-            <td>bakery</td>
+            <td><a href='cart/index.php'>cart</a></td>
         </tr>
-        <td>
-            <td>cart</td>
-        </td>
-
-
 
     </table>
     </div>

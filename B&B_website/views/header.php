@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
-<!-- the head section -->
+
 <head> 
 
-    <title>My Guitar Shop</title>
+    <title>B & B</title>
     <meta>
-    <link rel="stylesheet" type="scss/main.css">
+    <link rel="stylesheet" href ="scss/main.css">
 </head>
 
-<!-- the body section -->
+
 <body>
 <header><h1 id = 'main_logo'>B & B</h1></header>
