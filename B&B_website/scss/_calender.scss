@@ -1,0 +1,51 @@
+#calender_container {
+    position: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calender  {
+    border:1px solid #aaa;
+    border-collapse:collapse;
+    background-color:#fff;
+    font-family: Verdana;
+    font-size:12px;
+}
+
+#calender th {
+    background-color:#777;
+    color:#fff;
+    height:32px;
+}
+
+#calender td {
+    border:1px solid #ccc;
+    height:32px;
+    width:32px;
+    text-align:center;
+}
+
+
+
+#calender td.bg-yellow {
+    background-color:#ffffe0;
+}
+
+#calender td.bg-orange {
+    background-color:#ffa500;
+}
+
+
+#calender td.bg-white {
+    background-color:#fff;
+}
+
+#calender td.bg-blue {
+    background-color:#add8e6;
+}
+
+#calender a {
+    color: #333;
+    text-decoration:none;
+    
+}

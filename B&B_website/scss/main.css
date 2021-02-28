@@ -31,16 +31,61 @@
 #nav ul li a {
   padding: 0.25em 1em;
   text-decoration: none;
-  /* no underline */
   background-color: #EBF5FF;
-  /* pale bluish white */
   color: #4312AE;
-  /* dark blue */
   border: 2px solid black;
-  border-top-left-radius: 1em 1em;
-  /* rounded corner! */
-  border-top-right-radius: 1em 1em;
-  /* another rounded corner! */
+}
+
+#calender_container {
+  position: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#calender {
+  border: 1px solid #aaa;
+  border-collapse: collapse;
+  background-color: #fff;
+  font-family: Verdana;
+  font-size: 12px;
+}
+
+#calender th {
+  background-color: #777;
+  color: #fff;
+  height: 32px;
+}
+
+#calender td {
+  border: 1px solid #ccc;
+  height: 32px;
+  width: 32px;
+  text-align: center;
+}
+
+#calender td.bg-yellow {
+  background-color: #ffffe0;
+}
+
+#calender td.bg-orange {
+  background-color: #ffa500;
+}
+
+#calender td.bg-white {
+  background-color: #fff;
+}
+
+#calender td.bg-blue {
+  background-color: #add8e6;
+}
+
+#calender a {
+  color: #333;
+  text-decoration: none;
 }
 
 body {

@@ -5,8 +5,12 @@
 </style>
 
 
-<body>
+
 <main>
+
+<div id = 'calender_container'>
+<?php include './calender_display.php'?>
+</div>
 
 </main>
 
